@@ -11,6 +11,17 @@ type Props = {
     key?:any
 }
  
+type Props2 = {
+    question?:string,
+    answer?:string[],
+    callback?:string,
+    userAnswer?:any,
+    questionNr?:number,
+    totalQs?:number,
+    id?:number,
+    key?:any
+}
+ 
   
 const QuestionCard: React.FC<Props> = ({ questionNr,totalQs }) =>(
 <div>
