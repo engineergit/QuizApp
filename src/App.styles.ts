@@ -1,5 +1,5 @@
-import styled, { createGlobalStyle } from 'styled-components'
-//@ts-ignore
+import { createGlobalStyle } from 'styled-components'
+// @ts-ignore
 export const GlobalStyle = createGlobalStyle`
 html {
     height: 100%;
